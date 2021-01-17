@@ -1,0 +1,1 @@
+select kitapad,Yazar,Sayfa,Fiyat,YayınEvi,TurAd from TblKitaplar inner join  TblTurler on TblKitaplar.Tur=TblTurler.Turid
